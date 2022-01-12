@@ -9,9 +9,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 /* common style */
-/* *{
+*{
     box-sizing:border-box;
-} */
+    margin:0;
+    padding:0;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -26,10 +28,84 @@ body {
 
  } */
 
- header {
-     height: 94px;
-    background: #562EFF;}
-.top-player-blog{
+
+ /* header part css */
+
+ .header{
+     background-color: #562EFF;
+     height: 5.875rem;
+     display: flex;
+     justify-content:center;
+     padding: 0 0.625rem;
+ }
+ .header-container{
+     display:flex;
+     justify-content:space-between;
+     width:52.5rem;
+ }
+
+
+
+ .logo{
+    width: 2.526rem;
+    display:flex ;
+    align-items: center;
+    margin-right:60px;
+ }
+
+ .logo-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+ }
+
+ .logo-link span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+ }
+
+ .logo img{
+       width: 2.6rem;
+    margin-right: 0.313rem;
+}
+
+ .navbar ul{
+     display:flex;
+     align-items:baseline;
+     margin:0;
+     justify-content:space-around;
+ }
+
+ .navbar ul li{
+     /* display:flex; */
+     list-style: none;
+     justify-content:space-around;
+     margin:0 18px;
+ }
+ .navbar ul li a{
+                text-decoration:none;
+                font-style: normal;
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.5rem;
+
+
+            color: #FFFFFF;
+ }
+ .last-child {
+     position: relative;
+     top:0.991rem;
+ }
+ /* main section css start */
+
+
+
+ 
+ .top-player-blog{
     display: flex;
     justify-content:center;
     flex-direction: column;
@@ -64,7 +140,7 @@ hr{
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 3px;
+    margin: 30px 0px 33px;
 
 
 
